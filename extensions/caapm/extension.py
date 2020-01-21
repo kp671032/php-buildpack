@@ -197,7 +197,7 @@ class CAAPMInstaller(object):
                 installercmd.append('%s' %self._BACookieExpTime)
 	installercmd.append('-enableCFSupport')
 
-        _log.info("Compiled CA APM PHP Agent install commands %s"  %installercmd)
+        print("Compiled CA APM PHP Agent install commands %s"  %installercmd)
         print("Installing CA APM PHP Agent")
         _log.info("Installing CA APM PHP Agent");
         call(installercmd)
