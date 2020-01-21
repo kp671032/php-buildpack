@@ -76,7 +76,7 @@ dependencies:
 - name: CAAPM
   version: 20.1.0
   uri: https://ca.bintray.com/apm-agents/CA-APM-PHPAgent-20.1.0_linux.tar.gz
-  sha256: b53e056c2e544420b7809bfa1b11f1874d42ac421d62b177921bb6bb31916e78
+  sha256: f46b726fb2e66b6b554681583e5901c574be82bbbba16708d263084caa215a18
   cf_stacks:
   - cflinuxfs3
   osl: https://docops.ca.com/ca-apm/10-7/en/ca-apm-release-notes/third-party-software-acknowledgments/php-agents-third-party-software-acknowledgments
