@@ -490,7 +490,7 @@ dependencies:
     version: 
 - name: php
   version: 7.4.1
-  uri: https://buildpacks.cloudfoundry.org/dependencies/php/php7-7.4.1-linux-x64-cflinuxfs3-d7884fb8.tgz
+  uri: https://buildpacks.cloudfoundry.org/dependencies/php/php7-7.4.1-linux-x64-cflinuxfs3-eeb23b61.tgz
   sha256: eeb23b618e69ae7a9992ad5a672a5b0f3c34334976f5765b70c630c167bb9120
   cf_stacks:
   - cflinuxfs3
