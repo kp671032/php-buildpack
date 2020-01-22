@@ -134,7 +134,7 @@ ini_set('session.gc_divisor', '1');
 
 loadPHPUnitAliases();
 
-// Fixate sessionid early on, as php7.4+
+// Fixate sessionid early on, as php7.2+
 // does not allow the sessionid to be set after stdout
 // has been written to.
 session_id('cli');

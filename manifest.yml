@@ -16,7 +16,7 @@ exclude_files:
 - php_buildpack-*v*
 default_versions:
 - name: php
-  version: 7.4.1
+  version: 7.2.26
 - name: httpd
   version: 2.4.41
 - name: newrelic
@@ -489,13 +489,13 @@ dependencies:
   - name: zlib
     version: 
 - name: php
-  version: 7.4.1
-  uri: https://buildpacks.cloudfoundry.org/dependencies/php/php7-7.4.1-linux-x64-cflinuxfs3-eeb23b61.tgz
-  sha256: eeb23b618e69ae7a9992ad5a672a5b0f3c34334976f5765b70c630c167bb9120
+  version: 7.2.26
+  uri: https://buildpacks.cloudfoundry.org/dependencies/php/php7-7.2.26-linux-x64-cflinuxfs3-d7884fb8.tgz
+  sha256: d7884fb84b32e12e7133108e7de27fa65ead818f908aaafc87fe7f72f106ab78
   cf_stacks:
   - cflinuxfs3
-  source: https://php.net/distributions/php-7.4.1.tar.gz
-  source_sha256: 67265d6bd48d828f4725964f71ca5c76c3da63b0d07bec5ec4e5acfdd3708073
+  source: https://php.net/distributions/php-7.2.26.tar.gz
+  source_sha256: e97d0636478bb519cd955a0c17b7970cf173063a840a83fc4afb75c22bc1bf08
   dependencies:
   - name: amqp
     version: 1.9.4
