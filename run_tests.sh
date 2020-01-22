@@ -6,6 +6,7 @@
 #   odd conflicts when doing this.  The easiest fix is to just run tests
 #   individually.
 #
+#Test Comment
 set -e
 for TEST in ./tests/*.py; do
     echo "Running test [$TEST]..."
